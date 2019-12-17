@@ -1,0 +1,6 @@
+me: Deploy site web infrastructure
+  hosts: sitea
+    become: yes
+
+      roles:
+          - apache-simple
